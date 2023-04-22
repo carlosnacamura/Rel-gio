@@ -6,7 +6,7 @@ setInterval(function time(){
     const respostah = document.getElementById("horas")
     const respostam = document.getElementById("minutos")
     const respostas = document.getElementById("segundos")
-    respostah.innerHTML = `${hora}`
-    respostam.innerHTML = `${minutos}`
-    respostas.innerHTML = `${segundos}`
+    respostah.innerHTML = `${hora} <strong>Horas</strong>`
+    respostam.innerHTML = `${minutos} <strong>Minutos</strong>`
+    respostas.innerHTML = `${segundos} <strong>Segundos</strong>`
 })
